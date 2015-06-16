@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+
+    <link rel="stylesheet" type="text/css" href='../css/form.css'>
+  </head>
+
+  <body>
+    <h1>Little Buddy</h1>
+    <form class='form-group' id='litte_buddy'>
+    What is your name? <input type="text" name='' ng-model='story.name'>
+    What is your favorite animal? <input type='text' ng-model='story.animal'>
+    What is your Favorite color?<input type='text' ng-model='story.color'>
+
+    <button ng-click=buildStory() ng-class='btn-success'>Build your story</button>
+    </form>
+  </body>
+
+</html>
