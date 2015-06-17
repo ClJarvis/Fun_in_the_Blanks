@@ -1,14 +1,20 @@
 form, input {
   font-size: 1.95em;
+  padding-left: 4px;
 }
 form {
-  width: 75%;
+  width: 85%;
   border-color: blue;
   border-width: 3px;
   border-style: inset;
+  background-color:rgba(241, 241, 212, 0.98);
 
 }
-
+form {
+-webkit-box-shadow: 5px 5px 3px 0px #ddd;
+-moz-box-shadow: 5px 5px 3px 0px #ddd;
+box-shadow: 12px 12px 11px 0px rgb(36, 188, 236);
+}
 /*input {
   font-size: 3em;
 }*/

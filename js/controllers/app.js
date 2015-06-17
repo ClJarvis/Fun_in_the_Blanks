@@ -18,6 +18,22 @@ app.config(function ($routeProvider) {
     templateUrl: 'views/story_templates/little_buddy_tmpl',
     controller: 'storyCtrl'
   }).
+  when('/threelittle_form', {
+    templateUrl: 'views/threelittle_form',
+    controller: 'formCtrl'
+  }).
+  when('/story_templates/three_little_tmpl', {
+    templateUrl: 'views/story_templates/three_little_tmpl',
+    controller: 'storyCtrl'
+  }).
+    when('/beanstalk_form', {
+    templateUrl: 'views/beanstalk_form',
+    controller: 'formCtrl'
+  }).
+  when('/story_templates/beanstalk_tmpl', {
+    templateUrl: 'views/story_templates/beanstalk_tmpl',
+    controller: 'storyCtrl'
+  }).
   otherwise({
     redirectTo: '/'
   });
