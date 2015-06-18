@@ -1,0 +1,30 @@
+<div class="row" ng-show='myForm'>
+  <div class='col-md-2'></div>
+  <div class='col-md-8' id='formpage'>
+    <h1>Little Buddy</h1>
+    <form class='form-group' id='litte_buddy'>
+    What is your name? <input type='text' name='' ng-model='story.name'><br>
+    What is your favorite animal? <input type='text' ng-model='story.animal'><br>
+    Name a body part<input type='text' ng-model='story.bodyPart'><br>
+    What is your Favorite color?<input type='text' ng-model='story.color'><br>
+    Some thing that is your favorite color.<input type='text' ng-model='story.coloreditem'><br>
+    An action<input type='text' ng-model='story.action'><br>
+
+
+    <button ng-click='buildStory()' ng-class='btn-success'>Build your story</button>
+    </form>
+  </div>
+  <div class='col-md-2'></div>
+
+</div><!--end row -->
+
+
+<div class="row" ng-show='myStory'>
+  <div class='col-md-2'></div>
+  <div class='col-md-8' id='page'>
+    <h1>Your story</h1>
+    <p>{{story.name}} had a little {{story.animal}} it's {{story.bodyPart}} were {{story.color}} as {{story.coloreditem}}. Every where {{story.name}} went, the {{story.animal}} was sure to {{story.action}}.</p>
+  <button ng-click='tableContents()' ng-class='btn-success'>Return to Table of Contents</button>
+  </div>
+  <div class='col-md-2'></div>
+</div>

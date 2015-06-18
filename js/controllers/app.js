@@ -10,9 +10,9 @@ app.config(function ($routeProvider) {
     templateUrl: 'views/chapters',
     controller: 'tocCtrl'
   }).
-  when('/lamb_form', {
-    templateUrl: 'views/lamb_form',
-    controller: 'formCtrl'
+  when('/lamb', {
+    templateUrl: 'views/lambStory.html',
+    controller: 'lambCtrl'
   }).
   when('/story_templates/little_buddy_tmpl', {
     templateUrl: 'views/story_templates/little_buddy_tmpl',

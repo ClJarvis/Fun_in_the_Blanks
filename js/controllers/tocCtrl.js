@@ -1,7 +1,7 @@
 app.controller('tocCtrl', function($scope, $location) {
   $scope.message='Table of Contents';
   $scope.lambForm=function() {
-  $location.path ('/lamb_form')
+  $location.path ('/lamb')
 }
 
   $scope.threelittleForm=function() {

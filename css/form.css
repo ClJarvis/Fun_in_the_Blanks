@@ -1,7 +1,13 @@
+body{
+  text-align: center;
+}
+
 form, input {
   font-size: 1.95em;
   padding-left: 4px;
+  padding-top: 4px;
 }
+
 form {
   width: 85%;
   border-color: blue;
