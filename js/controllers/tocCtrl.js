@@ -1,4 +1,4 @@
-app.controller('tocCtrl', function($scope, $location) {
+app.controller('tocCtrl', function ($scope, $location) {
   $scope.message='Table of Contents';
   $scope.lambForm=function() {
   $location.path ('/lamb')

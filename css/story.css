@@ -10,5 +10,11 @@ body {
   padding-bottom: 12px;
   /*border-top-left-radius:6% 30%;
   border-top-right-radius:6% 30%;*/
+  text-align: left;
 }
 
+/* Style for the end */
+ .end {
+  text-align: center;
+  font-weight: bold;
+ }

@@ -6,6 +6,10 @@ app.config(function ($routeProvider) {
     templateUrl: 'views/index',
     controller: "mainCtrl"
   }).
+  when('/howto', {
+    templateUrl: 'views/howto.html',
+    controller: 'howCtrl'
+  }).
   when('/chapters', {
     templateUrl: 'views/chapters',
     controller: 'tocCtrl'
