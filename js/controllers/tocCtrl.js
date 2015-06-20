@@ -5,11 +5,11 @@ app.controller('tocCtrl', function($scope, $location) {
 }
 
   $scope.threelittleForm=function() {
-  $location.path ('/threelittle_form')
+  $location.path ('/pig')
   }
 
   $scope.beanstalkForm=function() {
-    $location.path ('/beanstalk_form')
+    $location.path ('/bean')
   }
 
 });

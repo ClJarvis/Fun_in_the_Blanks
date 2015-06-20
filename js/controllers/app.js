@@ -26,9 +26,9 @@ app.config(function ($routeProvider) {
     templateUrl: 'views/story_templates/three_little_tmpl',
     controller: 'storyCtrl'
   }).
-    when('/beanstalk_form', {
-    templateUrl: 'views/beanstalk_form',
-    controller: 'formCtrl'
+    when('/bean', {
+    templateUrl: 'views/beanStalkStory.html',
+    controller: 'stalkCtrl'
   }).
   when('/story_templates/beanstalk_tmpl', {
     templateUrl: 'views/story_templates/beanstalk_tmpl',
