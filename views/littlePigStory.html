@@ -1,0 +1,63 @@
+<div class="row" ng-show='myForm'>
+  <div class='col-md-2'></div>
+    <div class='col-md-8' id='formpage'>
+      <h1>Three Little Critters</h1>
+      <form class='form-group' id='litte_pig'>
+      <div class='col-md-4'>
+        What is your name?
+      </div>
+      <div>
+        <input type='text' name='' ng-model='story.name'>
+      </div><br>
+      <div class='col-md-4'>
+        Pick a number.
+      </div>
+      <div>
+        <input type='number' name='' ng-model='story.number'>
+      </div><br>
+      <div class='col-md-4'>
+        What is your favorite animal?
+      </div>
+      <div>
+        <input type='text' ng-model='story.animal'>
+      </div><br>
+      <div class='col-md-4'>
+        Name a kind of building
+      </div>
+      <div>
+        <input type='text' ng-model='story.building'>
+      </div><br>
+      <div class='col-md-4'>
+        Name a big animal?
+      </div>
+      <div>
+        <input type='text' ng-model='story.biganimal'>
+      </div><br>
+      <div class ='col-md-4'>An action
+      </div>
+      <div>
+        <input type='text' ng-model='story.action'>
+      </div><br>
+
+
+    <button ng-click='buildStory()' ng-class='btn-success'>Build your story</button>
+    </form>
+  </div>
+  <div class='col-md-2'></div>
+
+</div><!--end row -->
+
+
+<div class="row" ng-show='myStory'>
+  <div class='col-md-2'></div>
+  <div class='col-md-8' id='page'>
+    <h1>{{story.name}}'s Story</h1>
+    <P>Once there were {{story.number}} {{story.animal}}'s. They built a brick {{story.building}}. The big bad {{story.biganimal}} tried to {{story.action}} down the {{story.building}}. But he couldn't and the {{story.number}} {{story.animal}}s were safe.</P>
+    <div class='end'>The End</div>
+
+  <button ng-click='tableContents()' ng-class='btn-success'>Return to Table of Contents</button>
+
+  </div>
+  <div class='col-md-2'></div>
+
+</div><!--end row -->

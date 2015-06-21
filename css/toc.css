@@ -1,13 +1,19 @@
-button {
 
-  font-size: 3em;
-}
  ul, li{
   list-style-type: none;
   padding-right: 4px;
+  text-align: center;
  }
 
 div {
 }
 
+/*button {
+  font-size: 3em;
+}
+*/
+.btn-info, .btn-success, .btn-warning, .btn-danger {
+  font-size: 2.5em;
+  text-shadow: black;
+}
 

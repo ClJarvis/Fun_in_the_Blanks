@@ -1,24 +1,13 @@
-<!DOCTYPE HTML>
-<html>
-  <head>
-
-    <link rel="stylesheet" type="text/css" href='../css/form.css'>
-    <link rel="stylesheet" type="text/css" href='../css/toc.css'>
-
-  </head>
-
-  <body>
-
-          <h1>Table of Contents</h1>
-          <ul>
-            <li><button class="btn btn-success btn-lg btn-block" ng-click=lambForm()>Little Lamb</button></li>
-            <li><button class="btn btn-danger btn-lg btn-block" ng-click=threelittleForm()>Little Pigs</button></li>
-            <li><button class="btn btn-success btn-lg btn-block" ng-click=beanstalkForm()>The Beanstalk</button></li>
-          </ul>
-
-  </body>
-
-</html>
-
-
-
+<h1>Table of Contents</h1>
+<div class="row">
+  <div class='col-md-4'></div>
+  <div class='col-md-4'>
+    <ul>
+      <li><button class="btn btn-success btn-lg btn-block" ng-click='lambForm()'>Little Buddy</button></li>
+      <li><button class="btn btn-danger btn-lg btn-block" ng-click='threelittleForm()'>Little Critters</button></li>
+      <li><button class="btn btn-success btn-lg btn-block" ng-click='beanstalkForm()'>The Beanstalk</button></li>
+      <li><button ng-click='homePage()' class='btn btn-info btn-lg btn-block'>Return to Main Page</button></li>
+      </ul>
+  </div>
+  <div class='col-md-4'></div>
+</div><!--end row -->

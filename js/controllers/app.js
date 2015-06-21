@@ -6,6 +6,10 @@ app.config(function ($routeProvider) {
     templateUrl: 'views/index',
     controller: "mainCtrl"
   }).
+  when('/howto', {
+    templateUrl: 'views/howto.html',
+    controller: 'howCtrl'
+  }).
   when('/chapters', {
     templateUrl: 'views/chapters',
     controller: 'tocCtrl'
@@ -13,22 +17,22 @@ app.config(function ($routeProvider) {
   when('/lamb', {
     templateUrl: 'views/lambStory.html',
     controller: 'lambCtrl'
+  // }).
+  // when('/story_templates/little_buddy_tmpl', {
+  //   templateUrl: 'views/story_templates/little_buddy_tmpl',
+  //   controller: 'storyCtrl'
   }).
-  when('/story_templates/little_buddy_tmpl', {
-    templateUrl: 'views/story_templates/little_buddy_tmpl',
-    controller: 'storyCtrl'
-  }).
-  when('/threelittle_form', {
-    templateUrl: 'views/threelittle_form',
-    controller: 'formCtrl'
+  when('/pig', {
+    templateUrl: 'views/littlePigStory.html',
+    controller: 'pigCtrl'
   }).
   when('/story_templates/three_little_tmpl', {
     templateUrl: 'views/story_templates/three_little_tmpl',
     controller: 'storyCtrl'
   }).
-    when('/beanstalk_form', {
-    templateUrl: 'views/beanstalk_form',
-    controller: 'formCtrl'
+    when('/bean', {
+    templateUrl: 'views/beanStalkStory.html',
+    controller: 'stalkCtrl'
   }).
   when('/story_templates/beanstalk_tmpl', {
     templateUrl: 'views/story_templates/beanstalk_tmpl',
