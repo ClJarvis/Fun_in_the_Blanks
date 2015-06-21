@@ -12,4 +12,8 @@ app.controller('tocCtrl', function ($scope, $location) {
     $location.path ('/bean')
   }
 
+  $scope.homePage=function() {
+  $location.path ('/')
+  }
+
 });
