@@ -7,7 +7,7 @@
         What is your name?
       </div>
       <div>
-        <input type='text' name='' ng-model='story.name'>
+        <input type='text' name='' ng-model='story.name' autofocus>
       </div><br>
       <div class='col-md-4'>
         Pick a number.
@@ -16,7 +16,7 @@
         <input type='number' name='' ng-model='story.number'>
       </div><br>
       <div class='col-md-4'>
-        What is your favorite animal?
+        What is your favorite animal(plural)?
       </div>
       <div>
         <input type='text' ng-model='story.animal'>
@@ -28,7 +28,7 @@
         <input type='text' ng-model='story.building'>
       </div><br>
       <div class='col-md-4'>
-        Name a big animal?
+        A different animal(singular)
       </div>
       <div>
         <input type='text' ng-model='story.biganimal'>
@@ -52,10 +52,10 @@
   <div class='col-md-2'></div>
   <div class='col-md-8' id='page'>
     <h1>{{story.name}}'s Story</h1>
-    <P>Once there were {{story.number}} {{story.animal}}'s. They built a brick {{story.building}}. The big bad {{story.biganimal}} tried to {{story.action}} down the {{story.building}}. But he couldn't and the {{story.number}} {{story.animal}}s were safe.</P>
+    <P>Once there were {{story.number}} {{story.animal}}. They built a brick {{story.building}}. The big bad {{story.biganimal}} tried to {{story.action}} down the {{story.building}}. But he couldn't and the {{story.number}} {{story.animal}} were safe.</P>
     <div class='end'>The End</div>
 
-  <button ng-click='tableContents()' ng-class='btn-success'>Return to Table of Contents</button>
+    <button ng-click='tableContents()' ng-class='btn-success'>Return to Table of Contents</button>
 
   </div>
   <div class='col-md-2'></div>
