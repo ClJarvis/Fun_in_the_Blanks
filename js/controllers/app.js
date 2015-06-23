@@ -42,3 +42,6 @@ app.config(function ($routeProvider) {
     redirectTo: '/'
   });
 });
+
+
+app.constant('API_URL', 'https://funblanks.firebaseio.com');
