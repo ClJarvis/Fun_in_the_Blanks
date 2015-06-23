@@ -1,9 +1,9 @@
 body {
-  background-color: rgb(27, 27, 63);
+  background-color: rgba(227, 249, 37, 1);
 }
 
 #page {
-  background-color: rgba(241, 241, 212, 0.98);
+  background-color: rgba(93, 249, 37, 1);
   font-size: 3em;
   margin-top: 10px;
   border-radius: 6px;
