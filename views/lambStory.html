@@ -7,7 +7,7 @@
         What is your name?
       </div>
       <div>
-       <input type='text' name='' ng-model='story.name'>
+       <input type='text' name='' ng-model='story.name' autofocus>
       </div><br>
       <div class='col-md-4'>
        What is your favorite animal?
@@ -16,7 +16,7 @@
         <input type='text' ng-model='story.animal'>
       </div><br>
       <div class='col-md-4'>
-        Name a body part
+        Name an animal body part
       </div>
       <div>
         <input type='text' ng-model='story.bodyPart'>
@@ -41,7 +41,7 @@
       </div><br>
 
 
-      <button ng-click='buildStory()' ng-class='btn-success'>Build your story</button>
+      <button ng-click='buildStory()' class='btn btn-info'>Build your story</button>
       </form>
     </div>
   <div class='col-md-2'></div>
@@ -55,7 +55,7 @@
     <h1>{{story.name}}'s Little Buddy</h1>
     <p>{{story.name}} had a little {{story.animal}} it's {{story.bodyPart}} were {{story.color}} as {{story.coloreditem}}. Every where {{story.name}} went, the {{story.animal}} was sure to {{story.action}}.</p>
     <div class='end'>The End</div>
-    <button ng-click='windowprint()'>Print Story</button>
+<!--     <button ng-click='windowprint()'>Print Story</button> -->
   <button ng-click='tableContents()' ng-class='btn-success'>Return to Table of Contents</button>
   </div>
   <div class='col-md-2'></div>
