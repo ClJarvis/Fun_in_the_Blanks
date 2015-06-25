@@ -1,8 +1,8 @@
-app.controller('mainCtrl', ['$scope', '$firebaseArray', function ($scope, $location, $firebaseArray) {
+app.controller('mainCtrl', ['$scope', '$location', '$firebaseArray', function ($scope, $location, $firebaseArray) {
   var ref = new Firebase('https://funblanks.firebaseio.com/');
   $scope.message = $firebaseArray(ref);
 
-  $scope.data = $firebaseArray(ref);
+  // $scope.data = $firebaseArray(ref);
 
   $scope.message='Fun in The Blanks';
   $scope.chapters=function() {
