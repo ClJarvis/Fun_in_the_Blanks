@@ -1,4 +1,4 @@
-app.controller('pigCtrl', ['$scope', '$location', '$http', '$firebaseArray', function ($scope, $location, $http, $firebaseArray) {
+app.controller('pigCtrl', ['$scope', '$location', '$firebaseArray', function ($scope, $location, $firebaseArray) {
   $scope.message = "pig contoller";
   $scope.story= {};
   $scope.myStory=false;
@@ -18,4 +18,3 @@ app.controller('pigCtrl', ['$scope', '$location', '$http', '$firebaseArray', fun
   };
 
 }]);
-    console.log("after call");
