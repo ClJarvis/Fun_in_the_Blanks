@@ -7,14 +7,6 @@ app.config(function ($routeProvider) {
     templateUrl: 'views/index',
     controller: "mainCtrl"
   }).
-  // when('/register', {
-  //   templateUrl: 'views/register.html',
-  //   controller: "AuthCtrl"
-  // }).
-  // when('/login', {
-  //   templateUrl: 'views/login.html',
-  //   controller: "AuthCtrl"
-  // }).
   when('/howto', {
     templateUrl: 'views/howto.html',
     controller: 'howCtrl'
@@ -26,26 +18,18 @@ app.config(function ($routeProvider) {
   when('/lamb', {
     templateUrl: 'views/lambStory.html',
     controller: 'lambCtrl'
-  // }).
-  // when('/story_templates/little_buddy_tmpl', {
-  //   templateUrl: 'views/story_templates/little_buddy_tmpl',
-  //   controller: 'storyCtrl'
   }).
   when('/pig', {
     templateUrl: 'views/littlePigStory.html',
     controller: 'pigCtrl'
   }).
-  when('/story_templates/three_little_tmpl', {
-    templateUrl: 'views/story_templates/three_little_tmpl',
-    controller: 'storyCtrl'
-  }).
     when('/bean', {
     templateUrl: 'views/beanStalkStory.html',
     controller: 'stalkCtrl'
   }).
-  when('/story_templates/beanstalk_tmpl', {
-    templateUrl: 'views/story_templates/beanstalk_tmpl',
-    controller: 'storyCtrl'
+  when('/classic', {
+  templateUrl: 'views/classicStory.html',
+  controller: 'classicCtrl'
   }).
   otherwise({
     redirectTo: '/'
@@ -53,4 +37,4 @@ app.config(function ($routeProvider) {
 });
 
 
-app.constant('API_URL', 'https://funblanks.firebaseio.com');
+// app.constant('API_URL', 'https://funblanks.firebaseio.com');

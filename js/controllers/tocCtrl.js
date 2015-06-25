@@ -16,4 +16,8 @@ app.controller('tocCtrl', function ($scope, $location) {
   $location.path ('/')
   }
 
+  $scope.classicForm=function() {
+    $location.path ('/classic')
+  }
+
 });
