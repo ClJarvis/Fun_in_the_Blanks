@@ -1,4 +1,5 @@
-var app = angular.module ('StoryApp', ['ngRoute'])
+var app = angular.module ('StoryApp', ['ngRoute', 'firebase']);
+
 
 app.config(function ($routeProvider) {
   $routeProvider.
@@ -6,6 +7,14 @@ app.config(function ($routeProvider) {
     templateUrl: 'views/index',
     controller: "mainCtrl"
   }).
+  // when('/register', {
+  //   templateUrl: 'views/register.html',
+  //   controller: "AuthCtrl"
+  // }).
+  // when('/login', {
+  //   templateUrl: 'views/login.html',
+  //   controller: "AuthCtrl"
+  // }).
   when('/howto', {
     templateUrl: 'views/howto.html',
     controller: 'howCtrl'

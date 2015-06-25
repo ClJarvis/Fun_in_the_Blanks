@@ -1,0 +1,28 @@
+<h1>Fun in The Blanks</h1>
+<div class="row">
+  <div class='col-md-4'></div>
+  <div class='col-md-4'>
+  <h1 id='title'>Register</h1>
+
+  <form name='register'>
+  <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="text" name="email" ng-model="user.email" autofocus="autofocus" required="required" ng-minlength="3" class="form-control"/>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input id="password" type="password" name="password" ng-model="user.password" required="required" ng-minlength="3" class="form-control"/>
+          </div>
+          <button ng-show="userForm.$valid" ng-click="register()" class="btn btn-info">Register</button>
+
+
+  </form>
+
+  <button ng-click='homePage()' class='btn btn-info'>Return to Main Page</button>
+
+  </div><!--end of rules div -->
+
+  </div>
+  <div class='col-md-4'></div>
+</div><!--end row -->
+
