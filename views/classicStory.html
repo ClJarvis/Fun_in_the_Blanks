@@ -7,7 +7,7 @@
         What is your name?
       </div>
       <div>
-       <input type='text' name='' ng-model='story.name' autofocus>
+       <input type='text' name='' ng-model='story.name' autofocus='autofocus'>
       </div><br>
       <div class='col-md-4'>
        What is your favorite animal?
@@ -56,7 +56,8 @@
     <p>Once upon a {{story.noun}} there was a {{story.animal}} that loved {{story.food}}. The {{story.animal}} was named {{story.name}} and wanted to eat {{story.food}}, every day. One day {{story.name}} ate so much {{story.food}} that the {{story.animal}} turned into to a {{story.noun2}}.</p>
     <div class='end'>The End</div>
 <!--     <button ng-click='windowprint()'>Print Story</button> -->
-  <button ng-click='tableContents()' ng-class='btn-success'>Return to Table of Contents</button>
+
+  <button ng-click='tableContents()' class='btn btn-success'>Return to Table of Contents</button>
   </div>
   <div class='col-md-2'></div>
 </div>

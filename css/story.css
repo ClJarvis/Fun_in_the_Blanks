@@ -2,9 +2,14 @@ body {
   background-color: rgba(227, 249, 37, 1);
 }
 
+h1 {
+  text-align: center;
+}
+
+
 #page {
   background-color: rgba(93, 249, 37, 1);
-  font-size: 3em;
+  font-size: 1.95em;
   margin-top: 10px;
   border-radius: 6px;
   padding-bottom: 12px;
@@ -17,4 +22,8 @@ body {
  .end {
   text-align: center;
   font-weight: bold;
+ }
+
+ .btn {
+  text-align: center;
  }
