@@ -1,3 +1,49 @@
+
+
+/*///
+Overriding button colors in statcic and hover states making all borders black
+info=green, danger=red, success = yellow, primary and warning are purple, But warning is oval, primary is buttons are truncated at the ends and only used as build story and retuen to TOC buttons.
+ default remains white,
+///////////*/
+
+.btn-info {
+  background-color: #009900;
+}
+
+.btn-info:hover {
+  background-color: #006600;
+  border-color: black;
+}
+
+.btn-danger {
+  background-color: #b91200;
+}
+
+.btn-danger:hover {
+  background-color: #982e3b;
+  border-color: black;
+}
+
+.btn-success {
+  background-color: rgba(255, 204, 0, 0.99);
+}
+.btn-success:hover {
+  background-color: rgba(247, 203, 0, 0.86);
+  border-color: black;
+}
+
+.btn-primary, .btn-warning{
+  background-color: #43009B;
+}
+
+.btn-primary:hover, .btn-warning:hover{
+  background-color: rebeccapurple;
+  border-color: black;
+
+}
+
+/*
+
 .pt-perspective {
   position: relative;
   width: 100%;
@@ -40,3 +86,4 @@
   -webkit-animation: moveToBottom .6s ease both;
   animation: moveToBottom .6s ease both;
 }
+*/
