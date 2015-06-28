@@ -1,5 +1,5 @@
 app.controller('classicCtrl', ['$scope', '$location', '$firebaseArray', function ($scope, $location, $firebaseArray) {
-  $scope.message = "classic contoller";
+  $scope.message = "foodie contoller";
   $scope.story= {};
   $scope.myStory=false;
   $scope.myForm=true;

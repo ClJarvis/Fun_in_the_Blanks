@@ -3,15 +3,12 @@ var app = angular.module ('StoryApp', ['ngRoute', 'firebase']);
 
 app.config(function ($routeProvider) {
   $routeProvider.
-  when('/', {
-    templateUrl: 'views/index',
-    controller: "mainCtrl"
-  }).
+
   when('/howto', {
     templateUrl: 'views/howto.html',
     controller: 'howCtrl'
   }).
-  when('/chapters', {
+  when('/', {
     templateUrl: 'views/chapters',
     controller: 'tocCtrl'
   }).
@@ -28,7 +25,7 @@ app.config(function ($routeProvider) {
     controller: 'stalkCtrl'
   }).
   when('/classic', {
-  templateUrl: 'views/classicStory.html',
+  templateUrl: 'views/foodieStory.html',
   controller: 'classicCtrl'
   }).
   otherwise({

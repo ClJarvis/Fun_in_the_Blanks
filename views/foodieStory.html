@@ -41,7 +41,7 @@
       </div><br>
 
 
-      <button ng-click='buildStory()' class='btn btn-info'>Build your story</button>
+      <button ng-click='buildStory()' class='btn btn-info' id='build'>Build your story</button>
       </form>
     </div>
   <div class='col-md-2'></div>
@@ -50,6 +50,7 @@
 
 
 <div class="row" ng-show='myStory'>
+  <h1>Fun in the Blanks</h1>
   <div class='col-md-2'></div>
   <div class='col-md-8' id='page'>
     <h1>{{story.name}} in A Foodies Tale</h1>
@@ -57,7 +58,7 @@
     <div class='end'>The End</div>
 <!--     <button ng-click='windowprint()'>Print Story</button> -->
 
-  <button ng-click='tableContents()' class='btn btn-success'>Return to Table of Contents</button>
+  <div class='button'><button ng-click='tableContents()' class='btn btn-primary'>Return to Table of Contents</button></div>
   </div>
   <div class='col-md-2'></div>
 </div>

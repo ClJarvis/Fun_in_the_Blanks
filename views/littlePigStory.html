@@ -10,7 +10,7 @@
         <input type='text' name='' ng-model='story.name' autofocus>
       </div><br>
       <div class='col-md-4'>
-        Pick a number.
+        Pick a number greater than 2.
       </div>
       <div>
         <input type='number' name='' ng-model='story.number'>
@@ -40,7 +40,7 @@
       </div><br>
 
 
-    <button ng-click='buildStory()' class='btn-success'>Build your story</button>
+    <button ng-click='buildStory()' class='btn-success' id='build'>Build your story</button>
     </form>
   </div>
   <div class='col-md-2'></div>
@@ -49,13 +49,14 @@
 
 
 <div class="row" ng-show='myStory'>
+  <h1>Fun in the Blanks</h1>
   <div class='col-md-2'></div>
   <div class='col-md-8' id='page'>
-    <h1>{{story.name}}'s Story</h1>
+    <h1>{{story.name}}'s' {{story.number}} {{story.animal}}</h1>
     <P>Once there were {{story.number}} {{story.animal}}. They built a brick {{story.building}}. The big bad {{story.biganimal}} tried to {{story.action}} down the {{story.building}}. But he couldn't and the {{story.number}} {{story.animal}} were safe.</P>
     <div class='end'>The End</div>
 
-    <button ng-click='tableContents()' class='btn-success'>Return to Table of Contents</button>
+    <div class='button'><button ng-click='tableContents()' class='btn-primary'>Return to Table of Contents</button></div>
 
   </div>
   <div class='col-md-2'></div>
