@@ -1,5 +1,5 @@
 body {
-  background-color: rgba(21, 105, 149, 1); /*rgba(227, 249, 37, 1); */
+  background-color: #2a09b0;/*rgba(21, 105, 149, 1); /*rgba(227, 249, 37, 1); */
 }
 
 h1 {
@@ -35,6 +35,8 @@ h1 {
   text-align: center;
  }
 
- .story.name{
+/* .story.name{
   color: red;
- }
+ }*/
+
+
