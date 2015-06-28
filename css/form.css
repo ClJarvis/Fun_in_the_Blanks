@@ -29,7 +29,7 @@ input{
   background-color:rgba(70, 184, 218, 0.95);
   color: white;
 }
-input[type=text]:focus{
+input:focus{
   background-color: rebeccapurple;
 }
 
