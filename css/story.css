@@ -1,20 +1,40 @@
 body {
-  background-color: rgba(227, 249, 37, 1);
+  background-color: rgba(21, 105, 149, 1); /*rgba(227, 249, 37, 1); */
 }
 
+h1 {
+  text-align: center;
+  text-shadow: 2px 2px 2px #000000;
+  color: #46b8da;
+}
+
+
 #page {
-  background-color: rgba(93, 249, 37, 1);
-  font-size: 3em;
+  background-color: white; /*rgba(93, 249, 37, 1);/*76, 174, 76, 1*/
+  font-size: 1.95em;
   margin-top: 10px;
   border-radius: 6px;
   padding-bottom: 12px;
   /*border-top-left-radius:6% 30%;
   border-top-right-radius:6% 30%;*/
   text-align: left;
+  text-indent: 20px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
 }
 
 /* Style for the end */
  .end {
   text-align: center;
   font-weight: bold;
+  margin: 20px;
+ }
+
+ .button {
+  text-align: center;
+ }
+
+ .story.name{
+  color: red;
  }

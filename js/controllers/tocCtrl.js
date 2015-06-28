@@ -13,7 +13,15 @@ app.controller('tocCtrl', function ($scope, $location) {
   }
 
   $scope.homePage=function() {
-  $location.path ('/')
+  $location.path ('/chapters')
+  }
+
+   $scope.howto=function() {
+    $location.path ('/howto')
+  }
+
+  $scope.classicForm=function() {
+    $location.path ('/classic')
   }
 
 });

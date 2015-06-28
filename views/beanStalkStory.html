@@ -41,7 +41,7 @@
       </div><br>
 
 
-      <button ng-click='buildStory()' ng-class='btn-success'>Build your story</button>
+      <button ng-click='buildStory()' class='btn-success' id='build'>Build your story</button>
       </form>
     </div>
   <div class='col-md-2'></div>
@@ -49,15 +49,17 @@
 </div><!--end of user input form -->
 
 <div class="row" ng-show='myStory'>
+  <h1>Fun in the Blanks</h1>
   <div class='col-md-2'></div>
   <div class='col-md-8' id='page'>
     <h1>{{story.name}} and the Beanstalk</h1>
-    <p>One day {{story.name}} planted some magic beans. Overnight the beans grew into a giant beanstalk that streched into the clouds. {{story.name}} climbed the beanstalk and saw a huge {{story.building}}.
+    <p>One day {{story.name}} planted some magic beans. Overnight the beans grew into a giant beanstalk that stretched into the clouds. {{story.name}} climbed the beanstalk and saw a huge {{story.building}}.
     <P> {{story.name}} {{story.action}} into the {{story.building}} and saw a {{story.color}} {{story.animal}} trapped in a large cage. The {{story.animal}} looked very sad. So {{story.name}} decided to free it.
     <P> As {{story.name}} was opening the cage, The Giant {{story.action2}} into the room. {{story.name}} grabbed the {{story.animal}} and ran through the Giant's legs and out the door. The Giant chased them to the beanstalk. But {{story.name}} was too fast and slid down the beanstalk. Once at the bottom {{story.name}} grabbed a {{story.tool}} and chopped down the beanstalk so the Giant could not follow.</p>
 
     <div class='end'>The End</div>
-    <button ng-click='tableContents()' class='btn btn-info'>Return to Table of Contents</button>
+
+    <div class='button'><button ng-click='tableContents()' class='btn btn-primary'>Return to Table of Contents</button></div>
     </div>
   <div class='col-md-2'></div>
 
