@@ -2,17 +2,23 @@
 
 /*///
 Overriding button colors in statcic and hover states making all borders black
-info=green, danger=red, success = yellow, primary and warning are purple, But warning is oval, primary is buttons are truncated at the ends and only used as build story and retuen to TOC buttons.
+info=yellow, danger=red, success = green, primary and warning are purple, But warning is oval, primary is buttons are truncated at the ends and only used as build story and retuen to TOC buttons.
  default remains white,
 ///////////*/
 
-.btn-info {
-  background-color: #009900;
+.btn-default:hover {
+  border-color: black;
+  border-width: 6px;
 }
 
-.btn-info:hover {
-  background-color: #006600;
+.btn-warning {
+  background-color: rgba(255, 204, 0, 0.99);
+}
+
+.btn-warning:hover {
+  background-color: rgba(247, 203, 0, 0.86);
   border-color: black;
+  border-width: 6px;
 }
 
 .btn-danger {
@@ -22,24 +28,30 @@ info=green, danger=red, success = yellow, primary and warning are purple, But wa
 .btn-danger:hover {
   background-color: #982e3b;
   border-color: black;
+  border-width: 6px;
 }
 
 .btn-success {
-  background-color: rgba(255, 204, 0, 0.99);
+  background-color: #009900;
 }
 .btn-success:hover {
-  background-color: rgba(247, 203, 0, 0.86);
+  background-color: #006600;
   border-color: black;
+  border-width: 6px;
 }
 
-.btn-primary, .btn-warning{
+.btn-primary, .btn-info{
   background-color: #43009B;
 }
 
-.btn-primary:hover, .btn-warning:hover{
+.btn-primary:hover, .btn-info:hover {
   background-color: rebeccapurple;
   border-color: black;
+  border-width: 6px;
+}
 
+.btn.active {
+  background-color: red;
 }
 
 /*

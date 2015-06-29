@@ -34,14 +34,14 @@
         <input type='text' ng-model='story.noun'>
       </div><br>
       <div class='col-md-4'>
-      Another noun
+      A condiment or sauce.
       </div>
       <div>
-        <input type='text' ng-model='story.noun2'>
+        <input type='text' ng-model='story.condiment'>
       </div><br>
 
 
-      <button ng-click='buildStory()' class='btn btn-info' id='build'>Build your story</button>
+      <button ng-click='buildStory()' class='btn btn-warning' id='build'>Build your story</button>
       </form>
     </div>
   <div class='col-md-2'></div>
@@ -54,7 +54,7 @@
   <div class='col-md-2'></div>
   <div class='col-md-8' id='page'>
     <h1>{{story.name}} in A Foodies Tale</h1>
-    <p>Once upon a {{story.noun}} there was a {{story.animal}} that loved {{story.food}}. The {{story.animal}} was named {{story.name}} and wanted to eat {{story.food}}, every day. One day {{story.name}} ate so much {{story.food}} that the {{story.animal}} turned into to a {{story.noun2}}.</p>
+    <p>Once upon a {{story.noun}}, there was a {{story.animal}} that loved {{story.food}}. The {{story.animal}} was named {{story.name}}. {{story.name}} wanted to eat {{story.food}}, every day for breakfeast, lunch, and dinner. One day {{story.name}} ate so much {{story.food}} that the {{story.animal}} turned into to {{story.food}} {{story.condiment}}.</p>
     <div class='end'>The End</div>
 <!--     <button ng-click='windowprint()'>Print Story</button> -->
 
