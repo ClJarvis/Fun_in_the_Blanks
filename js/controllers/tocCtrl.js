@@ -24,4 +24,8 @@ app.controller('tocCtrl', function ($scope, $location) {
     $location.path ('/classic')
   }
 
+  $scope.midasForm=function() {
+    $location.path ('/midas')
+  }
+
 });
