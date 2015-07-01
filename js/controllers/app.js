@@ -32,6 +32,10 @@ app.config(function ($routeProvider) {
   templateUrl: 'views/midasStory.html',
   controller: 'midasCtrl'
   }).
+  when('/baa', {
+  templateUrl: 'views/baaStory.html',
+  controller: 'baaCtrl'
+  }).
   otherwise({
     redirectTo: '/'
   });

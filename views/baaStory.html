@@ -1,7 +1,7 @@
 <div class="row" ng-show='myForm'>
   <div class='col-md-2'></div>
     <div class='col-md-8' id='formpage'>
-      <h1>Little Buddy</h1>
+      <h1>Baa Baa</h1>
       <form class='form-group' id='litte_buddy'>
       <div class='col-md-4'>
         What is your name?
@@ -10,16 +10,34 @@
        <input type='text' name='' ng-model='story.name' autofocus>
       </div><br>
       <div class='col-md-4'>
+        Excalmation
+      </div>
+      <div>
+       <input type='text' name='' ng-model='story.excalmation' autofocus>
+      </div><br>
+      <div class='col-md-4'>
        What is your favorite animal?
       </div>
       <div>
         <input type='text' ng-model='story.animal'>
       </div><br>
       <div class='col-md-4'>
-        Name an animal body part
+        Another Animal
       </div>
       <div>
-        <input type='text' ng-model='story.bodyPart'>
+        <input type='text' ng-model='story.animal2'>
+      </div><br>
+      <div class='col-md-4'>
+        Another Animal
+      </div>
+      <div>
+        <input type='text' ng-model='story.animal3'>
+      </div><br>
+      <div class='col-md-4'>
+        Another Animal
+      </div>
+      <div>
+        <input type='text' ng-model='story.animal4'>
       </div><br>
       <div class='col-md-4'>
       What is your Favorite color?
@@ -28,16 +46,16 @@
         <input type='text' ng-model='story.color'>
       </div><br>
       <div class='col-md-4'>
-      Some thing that is your favorite color.
+      Something you put stuff in (plural)
       </div>
       <div>
-        <input type='text' ng-model='story.coloreditem'>
+        <input type='text' ng-model='story.container'>
       </div><br>
       <div class='col-md-4'>
-      Verb An action (present tense)
+      A place you like to go.
       </div>
       <div>
-        <input type='text' ng-model='story.action'>
+        <input type='text' ng-model='story.place'>
       </div><br>
 
 
@@ -48,14 +66,20 @@
 
 </div><!--END OF USER INPUT FORM -->
 
-
 <div class="row" ng-show='myStory'>
     <h1>Fun in the Blanks</h1>
   <div class='col-md-2'></div>
 
   <div class='col-md-8' id='page'>
-    <h1>{{story.name}}'s Little Buddy</h1>
-    <p>{{story.name}} had a little {{story.animal}} it's {{story.bodyPart}} were {{story.color}} as {{story.coloreditem}}. Every where {{story.name}} went, the {{story.animal}} was sure to {{story.action}}.</p>
+    <h1>{{story.name}}'s Baa Baa</h1>
+    {{story.excalmation}}, {{story.excalmation}}, a {{story.color}} {{story.animal}},<br>
+    Have you any Wool?<br>
+    Yes merry have I,<br>
+    Three {{story.container}} full,<br>
+    One for my {{story.animal2}},<br>
+    One for my {{story.animal3}},<br>
+    One for the {{story.animal4}}<br>
+    That lives down the {{story.place}}.</br>
     <div class='end'>The End</div>
 <!--     <button ng-click='windowprint()'>Print Story</button> -->
   <div class='button'><button ng-click='tableContents()' class='btn-primary'>Return to Table of Contents</button></div>

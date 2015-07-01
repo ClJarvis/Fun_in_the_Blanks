@@ -28,4 +28,8 @@ app.controller('tocCtrl', function ($scope, $location) {
     $location.path ('/midas')
   }
 
+    $scope.baaForm=function() {
+    $location.path ('/baa')
+  }
+
 });
