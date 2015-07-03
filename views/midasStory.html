@@ -4,11 +4,12 @@
       <h1>Don't Touch That</h1>
       <form class='form-group' id='midas_story'>
       <div class='col-md-4'>
-        What is your name?
+      What is your name?
       </div>
       <div>
-       <input type='text' name='' ng-model='story.name' autofocus='autofocus'>
+       <input type='text' id="focusedInput" class='floating-label' name='' ng-model='story.name' autofocus='autofocus'>
       </div><br>
+
       <div class='col-md-4'>
        A fun place.
       </div>
@@ -16,7 +17,7 @@
         <input type='text' ng-model='story.place'>
       </div><br>
       <div class='col-md-4'>
-        A toy.(plural)
+        A toy(plural).
       </div>
       <div>
         <input type='text' ng-model='story.toy'>

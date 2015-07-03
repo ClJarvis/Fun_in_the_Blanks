@@ -20,7 +20,7 @@ form {
 }
 
 
-input{
+input, .floating-label{
   background-color:white;
   color: #43009b;
   border-color: black;
