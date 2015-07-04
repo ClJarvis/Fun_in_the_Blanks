@@ -1,7 +1,7 @@
 <div class="row" ng-show='myForm'>
   <div class='col-md-2'></div>
     <div class='col-md-8' id='formpage'>
-      <h1>Baa Baa</h1>
+      <h1>Got something?</h1>
       <form class='form-group' id='litte_buddy'>
       <div class='col-md-4'>
         What is your name?
@@ -28,16 +28,16 @@
         <input type='text' ng-model='story.animal2'>
       </div><br>
       <div class='col-md-4'>
-        Another Animal
+        A job (fireman, teacher, other)
       </div>
       <div>
-        <input type='text' ng-model='story.animal3'>
+        <input type='text' ng-model='story.job'>
       </div><br>
       <div class='col-md-4'>
-        Another Animal
+        Name a cartoon Character
       </div>
       <div>
-        <input type='text' ng-model='story.animal4'>
+        <input type='text' ng-model='story.toon'>
       </div><br>
       <div class='col-md-4'>
       What is your Favorite color?
@@ -74,12 +74,11 @@
     <h1>{{story.name}}'s Baa Baa</h1>
     {{story.excalmation}}, {{story.excalmation}}, a {{story.color}} {{story.animal}},<br>
     Have you any Wool?<br>
-    Yes merry have I,<br>
     Three {{story.container}} full,<br>
     One for my {{story.animal2}},<br>
-    One for my {{story.animal3}},<br>
-    One for the {{story.animal4}}<br>
-    That lives down the {{story.place}}.</br>
+    One for the {{story.job}},<br>
+    One for {{story.toon}}<br>
+    Who lives over at {{story.place}}.</br>
     <div class='end'>The End</div>
 <!--     <button ng-click='windowprint()'>Print Story</button> -->
   <div class='button'><button ng-click='tableContents()' class='btn-primary'>Return to Table of Contents</button></div>
