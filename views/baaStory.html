@@ -28,6 +28,12 @@
         <input type='text' ng-model='story.animal2'>
       </div><br>
       <div class='col-md-4'>
+        Something you buy in large amounts
+      </div>
+      <div>
+        <input type='text' ng-model='story.buy'>
+      </div><br>
+      <div class='col-md-4'>
         A job (fireman, teacher, other)
       </div>
       <div>
@@ -46,7 +52,7 @@
         <input type='text' ng-model='story.color'>
       </div><br>
       <div class='col-md-4'>
-      Something you put stuff in (plural)
+      A container (Something you put stuff in) (plural)
       </div>
       <div>
         <input type='text' ng-model='story.container'>
@@ -73,7 +79,7 @@
   <div class='col-md-8' id='page'>
     <h1>{{story.name}}'s Baa Baa</h1>
     {{story.excalmation}}, {{story.excalmation}}, a {{story.color}} {{story.animal}},<br>
-    Have you any Wool?<br>
+    Have you any {{story.buy}}?<br>
     Three {{story.container}} full,<br>
     One for my {{story.animal2}},<br>
     One for the {{story.job}},<br>
