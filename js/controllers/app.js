@@ -36,6 +36,10 @@ app.config(function ($routeProvider) {
   templateUrl: 'views/baaStory.html',
   controller: 'baaCtrl'
   }).
+   when('/code', {
+  templateUrl: 'views/codeStory.html',
+  controller: 'codeCtrl'
+  }).
   otherwise({
     redirectTo: '/'
   });

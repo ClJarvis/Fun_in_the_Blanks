@@ -32,4 +32,8 @@ app.controller('tocCtrl', function ($scope, $location) {
     $location.path ('/baa')
   }
 
+    $scope.codeForm=function() {
+    $location.path ('/code')
+  }
+
 });

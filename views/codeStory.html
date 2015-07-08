@@ -1,0 +1,67 @@
+<div class="row" ng-show='myForm'>
+  <div class='col-md-2'></div>
+    <div class='col-md-8' id='formpage'>
+      <h1>Ode to Code</h1>
+      <form class='form-group' id='litte_buddy'>
+      <div class='col-md-4'>
+        What is your favorite text editor?
+      </div>
+      <div>
+       <input type='text' name='' ng-model='story.text' autofocus>
+      </div><br>
+      <div class='col-md-4'>
+        Not fixed
+      </div>
+      <div>
+        <input type='text' ng-model='story.broken'>
+      </div><br>
+
+      <div class='col-md-4'>
+      An Irish bar
+      </div>
+      <div>
+        <input type='text' ng-model='story.pub'>
+      </div><br>
+      <div class='col-md-4'>
+      A mistake
+      </div>
+      <div>
+        <input type='text' ng-model='story.error'>
+      </div><br>
+
+
+      <button ng-click='buildStory()' class='btn btn-primary' id='build'>Build your story</button>
+      </form>
+    </div>
+  <div class='col-md-2'></div>
+
+</div><!--END OF USER INPUT FORM -->
+
+
+<div class="row" ng-show='myStory'>
+    <h1>Fun in the Blanks</h1>
+  <div class='col-md-2'></div>
+
+  <div class='col-md-8' id='page'>
+    <h1>Ode to Code</h1>
+        <P>Once upon a time,<br>
+        <p>we coded in {{story.text}}.</p>
+
+        <p>We wrote in bliss,<br>
+        <P>till we learned of this.</p>
+
+        <p>The code won't forgive,<br>
+        <P>a {{story.broken}} div.</p>
+
+        <P>Of good news I am the bearer,<br>
+        <P>you just fixed the last {{story.error}}.</p>
+
+        <p>So before we hit the {{story.pub}},<br>
+        <P>push it git hub!</p>
+
+
+    <div class='end'>ABC</div>
+  <div class='button'><button ng-click='tableContents()' class='btn-primary'>Return to Table of Contents</button></div>
+  </div>
+  <div class='col-md-2'></div>
+</div>

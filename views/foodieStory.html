@@ -40,7 +40,6 @@
         <input type='text' ng-model='story.condiment'>
       </div><br>
 
-
       <button ng-click='buildStory()' class='btn btn-warning' id='build'>Build your story</button>
       </form>
     </div>
@@ -53,10 +52,9 @@
   <h1>Fun in the Blanks</h1>
   <div class='col-md-2'></div>
   <div class='col-md-8' id='page'>
-    <h1><b>{{story.name}}</b> in A Foodies Tale</h1>
-    <p>Once upon a {{story.noun}}, there was a {{story.animal}} that loved {{story.food}}. The {{story.animal}} was named <b>{{story.name}}</b>. <b>{{story.name}}</b> wanted to eat {{story.food}}, every day for breakfeast, lunch, and dinner. One day <b>{{story.name}}</b> ate so much {{story.food}} that the {{story.animal}} turned into to {{story.food}} {{story.condiment}}.</p>
+    <h1><b><b>{{story.name}}</b></b> in A Foodies Tale</h1>
+    <p>Once upon a {{story.noun}}, there was a {{story.animal}} that loved {{story.food}}. The {{story.animal}} was named <b><b>{{story.name}}</b></b>. <b><b>{{story.name}}</b></b> wanted to eat {{story.food}}, every day for breakfeast, lunch, and dinner. One day <b><b>{{story.name}}</b></b> ate so much {{story.food}} that the {{story.animal}} turned into to {{story.food}} {{story.condiment}}.</p>
     <div class='end'>The End</div>
-<!--     <button ng-click='windowprint()'>Print Story</button> -->
 
   <div class='button'><button ng-click='tableContents()' class='btn btn-primary'>Return to Table of Contents</button></div>
   </div>
