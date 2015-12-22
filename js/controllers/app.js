@@ -9,7 +9,7 @@ app.config(function ($routeProvider) {
     controller: 'howCtrl'
   }).
   when('/', {
-    templateUrl: 'views/chapters',
+    templateUrl: 'views/chapters.html',
     controller: 'tocCtrl'
   }).
   when('/lamb', {
