@@ -9,4 +9,4 @@ The inputs are large and use a large child friendly font size so the child can s
 Since the story is hidden until the button is clicked you can play alone.
 <P>Read the story with the child, repeat.</p>
 
-Languages: HTML, CSS, AngularJS, and JSON
+Languages: HTML, CSS, AngularJS, Firebase, and JSON
