@@ -10,3 +10,9 @@ Since the story is hidden until the button is clicked you can play alone.
 <P>Read the story with the child, repeat.</p>
 
 Languages: HTML, CSS, AngularJS, Firebase, and JSON
+
+
+##Future Plans
+
+Eventually more stories will be added.
+Stories will made to match child's reading level.
