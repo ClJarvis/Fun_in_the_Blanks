@@ -1,7 +1,7 @@
 # Fun in the Blanks
 
 A personalized children's story book made with AngularJS, HTML, CSS, JSON, and firebase. A children's mad libs style story where the child can take part in classic fairy tales.
-Goal is to teach a child to spell their name and some basic words.
+Goal is to teach a child to spell their name and some common words.
 The inputs are large and use a large child friendly font size so the child can see their name on screen.
 
 
@@ -9,10 +9,10 @@ The inputs are large and use a large child friendly font size so the child can s
 Since the story is hidden until the button is clicked you can play alone.
 <P>Read the story with the child, repeat.</p>
 
-<B>Languages:</b> HTML, CSS, AngularJS, Firebase, and JSON
+<B>Languages:</b> HTML, CSS, AngularJS, Bootstrap, Firebase, and JSON
 
 
 ##Future Plans
 
 Eventually more stories will be added.
-Stories will made to match child's reading level.
+Stories will made to match child's reading level. 
