@@ -25,36 +25,36 @@ Updating color scheme new color scheme is shades of blues with some purple.
 }
 
 .btn-warning {
-  background-color: #2907EB;
+  background-color: rgba(255, 204, 0, 0.99);
 }
 
 .btn-warning:hover {
-  background-color: #08a6ff;
+  background-color: rgba(247, 203, 0, 0.86);
   border-color: black;
   border-width: 6px;
 }
 
 .btn-danger {
-  background-color: #3D5AFE;
+  background-color: #b91200;
 }
 
 .btn-danger:hover {
-  background-color: #0B3678;
+  background-color: #982e3b;
   border-color: black;
   border-width: 6px;
 }
 
 .btn-success {
-  background-color: #3D5AFE;
+  background-color: #009900;
 }
 .btn-success:hover {
-  background-color: #0B3678;
+  background-color: #006600;
   border-color: black;
   border-width: 6px;
 }
 
 .btn-primary, .btn-info{
-  background-color: #420D8F;
+  background-color: #430098;
 }
 
 .btn-primary:hover, .btn-info:hover {
