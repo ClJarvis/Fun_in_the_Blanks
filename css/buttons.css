@@ -2,9 +2,22 @@
 
 /*///
 Overriding button colors in static and hover states making all borders black
-info=yellow, danger=red, success = green, primary and warning are purple, But warning is oval, primary is buttons are truncated at the ends and only used as build story and retuen to TOC buttons.
+info=yellow, danger=red, success = green, primary and warning are purple, But warning is oval, primary is buttons are truncated at the ends and only used as build story and return to TOC buttons.
  default remains white,
 ///////////*/
+
+
+/*///
+Updating color scheme new color scheme is shades of blues with some purple.
+    royalblue #2907EB and hover 08a6ff for Warning
+    bright blue #3D5AFE with hover #0B3678 for Danger and success
+    purple #420D8F for primary and Info
+
+    Gray #D3DDE3 Page back ground is gray
+    app Backgroud(Rules) is Blue #7108FF
+
+//// */
+
 
 .btn-default:hover {
   border-color: black;
@@ -41,7 +54,7 @@ info=yellow, danger=red, success = green, primary and warning are purple, But wa
 }
 
 .btn-primary, .btn-info{
-  background-color: #43009B;
+  background-color: #430098;
 }
 
 .btn-primary:hover, .btn-info:hover {
